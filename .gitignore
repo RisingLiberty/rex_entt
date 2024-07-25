@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+# Conan
+conan/test_package/build
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDEs
+*.user
+.idea
+.vscode
+.vs
+CMakeSettings.json
+cpp.hint
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Bazel
+/bazel-*
+/test/bazel-*
+/user.bazelrc
